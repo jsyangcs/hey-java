@@ -1,0 +1,7 @@
+# ignore the following
+*.class
+/.idea/
+*.log
+*.iml
+/out/
+/web/
