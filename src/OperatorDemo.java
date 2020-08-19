@@ -12,7 +12,7 @@ public class OperatorDemo {
         System.out.println("x: "+'A'+x);
         System.out.println('A'+"x: "+x);
 
-        //x = x+10 error
+        x = x+10; //no error here only because x is int
         //隐含强制转换
         x+=10;
         System.out.println(x);
