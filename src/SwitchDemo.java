@@ -7,7 +7,7 @@ public class SwitchDemo {
 
         int weekday = sc.nextInt();
 
-        // switch variable: byte int short char enum(JDK5) String(JDK7)
+        // switch variable: byte char short int enum(JDK5) String(JDK7)
 
         switch (weekday) {
             // case后必须是literal

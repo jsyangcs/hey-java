@@ -1,10 +1,10 @@
 public class VariableDemo {
     // java是静态语言(定义变量需要明确类型)
-    // java是强类型语言(一旦赋值给某个变量，改变量就会持有这个类型，"不能"(相对)与其他类型混合运算)
+    // java是强类型语言(一旦赋值给某个变量，该变量就会持有这个类型，"不能"(相对)与其他类型混合运算)
     public static void main(String[] args) {
         // byte short int(default) long
         byte b = 10;
-        long c = 10000 + b;   // 整形字面量默认是int,long加L 不加L如果在范围内不报错(默认转换)，否则报错
+        long c = 100 + b;   // 整形字面量默认是int,long加L 不加L如果在范围内不报错(默认转换)，否则报错
         System.out.println(c);
         // float double(default)
         float d = 12.13F;           // ..字面量默认是double,float加F 不加F报错，损失精度
@@ -28,7 +28,7 @@ public class VariableDemo {
         byte n4 = (byte) (n1 + n2);
         System.out.println(n4);
 
-        // 涉及字面两的例子
+        // 涉及字面量的例子
         byte b1 = 3;
         //右边涉及变量就不行
         //byte b2 = b1 + 2;
@@ -40,7 +40,7 @@ public class VariableDemo {
         int c2 = 1;
         //int c3 = c1 + c2;
 
-        //int d1 = 1000000;
+        int d1 = 1000000;
         char d2 = 100;
 
 
