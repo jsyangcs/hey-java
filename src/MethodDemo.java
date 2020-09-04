@@ -7,6 +7,7 @@ public class MethodDemo {
         short y = sc.nextShort();
         long result = (long)getMax(x,y);
         System.out.println("the max is "+result);
+        System.out.println(1+2+"a");
 
     }
 
